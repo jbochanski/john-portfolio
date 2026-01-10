@@ -1,0 +1,416 @@
+baseURL: "https://hugo-profile.netlify.app"
+languageCode: "en-us"
+title: "John Bochanski"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+#services:
+  #googleAnalytics:
+    #id: G-MEASUREMENT_ID
+  #disqus:
+    #shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main: []
+
+  
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "John Bochanski"
+  description: Data Scientist and Astrophysicist
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/hero2.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "John Bochanski" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: ""
+    title: "John Bochanski, Ph.D."
+    subtitle: "Data Scientist & Applied Researcher"
+    content: " US-based, mission-driven data scientist with 20+ years of experience
+      analyzing large, complex datasets and leading interdisciplinary teams.
+      I specialize in Python, SQL, and advanced analytics—including causal
+      inference, regression, and machine learning—to build models and metrics
+      that inform high-stakes decisions."
+    image: /images/avatar.jpg
+    bottomImage:
+      enable: true
+      roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Download Resume"
+      url: "/John-Bochanski-Resume.pdf"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fas fa-envelope
+          url: "mailto:bochanski@gmail.com"
+        - icon: fab fa-linkedin
+          url: "https://www.linkedin.com/in/johnbochanski/"
+        #- icon: fas fa-globe
+        #  url: "https://johnbochanski.com"
+        - icon: fa-brands fa-orcid
+          url: "https://orcid.org/0000-0001-7096-425X"
+        - icon: fa-brands fa-github
+          url: "https://github.com/jbochanski"
+          #customIcons: []
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.png"
+    content: |-
+     I’m a data-driven scientist with 20+ years of experience analyzing large,
+      complex datasets and leading interdisciplinary teams. I specialize in
+      Python, SQL, and advanced analytics—including causal inference, regression,
+      and machine learning—to build models and metrics that inform high-stakes
+      decisions.
+
+      I’ve founded and chaired an academic department, managed technical projects
+      from conception through delivery, and mentored faculty and students across
+      computer science, physics, and astronomy. I enjoy translating complex
+      quantitative work into clear, actionable insights for diverse stakeholders.
+    skills:
+      enable: true
+      title: "Some of the technologies and tools I work with:"
+      items:
+        - "Python"
+        - "SQL"
+        - "Causal inference, regression, time-series analysis"
+        - "scikit-learn, tensorflow,  ML workflows"
+        - "Git, Tableau, cloud environments"
+        - "MLOps & reproducible data pipelines"
+        - "Agile Methodologies"
+
+  # Experience
+  experience:
+    enable: true
+    items:
+      - company: "Rider University"
+        companyUrl: "https://www.rider.edu"
+        jobs:
+          - name: "Associate Professor of Computer Science & Physics"
+            date: "2014 – 2025"
+            content: |-
+              - Founded and chaired the Computer Science & Physics department, growing it to 130+ undergraduate students across two degree programs and six full-time faculty.
+              - Designed and led projects applying data science, machine learning, and analytics in educational and scientific settings.
+              - Built reproducible data workflows and mentored students and faculty on statistical modeling, software engineering, and modern data tools.
+              - Research Corporation for Science Advancement Scialog Fellow (2018, 2019); AI Faculty Fellow (2025).
+
+      - company: "Vera Rubin Observatory"
+        companyUrl: "https://www.lsst.org"
+        jobs:
+          - name: "Science Collaboration Co-Chair"
+            date: "2013 - 2020"
+            content: |-
+              - Elected co-chair of the largest science collaboration within the Vera Rubin Observatory.
+              - Managed an international collaboration of ~100 members, organizing meetings, white papers, and cross-team coordination.
+              - Coordinated work between observational scientists, software engineers, and data analysts to define scientific roadmaps.
+
+      - company: "MIT, Penn State, Haverford"
+        companyUrl: ""
+        jobs:
+          - name: "Postdoctoral Scholar & Researcher"
+            date: "2008 – 2014"
+            content: |-
+              - Developed public, widely used image analysis and control software for multiple facility-class instruments.
+              - Led peer-reviewed studies using some of the largest databases of low-mass stars ever assembled (TB-scale datasets).
+              - Built and maintained analysis pipelines in Python for large-scale statistical modeling and uncertainty quantification.
+              - Organized multi-day symposiums and large public open-house events.
+      
+      - company: "Sky & Telescope Magazine"
+        companyUrl: "https://skyandtelescope.org"
+        jobs:
+          - name: "Contributing Author"
+            date: "2012 - 2019"      # e.g. "201X – Present" if you want
+            content: |-
+              - Authored multiple online and print articles explaining recent astronomical results to a broad audience.
+              - Wrote accessible summaries of complex research, emphasizing clear, engaging communication for non-specialists.
+  
+  # Education
+  education:
+    enable: true
+    index: false
+    items:
+      - title: "Ph.D. in Astronomy"
+        school:
+          name: "University of Washington"
+          url: "https://www.washington.edu"
+        date: "2002 – 2008"
+        content: |-
+          Dissertation research on large astronomical surveys and low-mass stars.
+        featuredLink:
+          enable: false
+      - title: "B.S. in Astronomy & Astrophysics"
+        school:
+          name: "Villanova University"
+          url: "https://www1.villanova.edu"
+        date: "1998 – 2002"
+        content: |-
+          Magna Cum Laude; Phi Beta Kappa, Phi Kappa Phi, Sigma Pi Sigma; Goldwater Scholar.
+        featuredLink:
+          enable: false
+  # Achievements
+  achievements:
+    enable: true
+    # title: "Achievements"  # optional custom title
+    items:
+      - title: "AI Faculty Fellow"
+        content: >
+          Selected as AI Faculty Fellow (2025), recognizing leadership in integrating
+          artificial intelligence and data science into teaching and research.
+        # image: /images/achievement-ai.png   # optional if you add one
+      - title: "RCSA Scialog Fellow"
+        content: >
+          Twice selected as Scialog Fellow (2018, 2019), recognizing my innovation in time-domain and survey astrophysical
+          research.
+        # image: /images/achievement-ai.png   # optional if you add one
+
+      - title: "MIT SPOT Award (2009, 2010)"
+        content: >
+          Recipient of MIT SPOT (Spontaneous Performance Award) recognition in 2009
+          and 2010 for outstanding contributions to the department as a postdoctoral scholar.
+        # image: /images/achievement-spot.png
+
+      - title: "Asteroid 141414 Bochanski"
+        content: >
+          Namesake of Asteroid 141414 (Bochanski), honoring contributions to
+          astronomy and the study of low-mass stars.
+        # image: /images/achievement-asteroid.png
+
+  # projects
+  projects:
+    enable: true
+    title: "Talks & Publications"
+    items:
+      - title: "Publications"
+        image: "/images/rubin.png"
+        content: >
+          Complete lists (Orcid and Google Scholar) of my peer-reviewed publications, citations, and
+          research impact.
+        badges:
+          - "Publications"
+          - "Research"
+        links:
+          - icon: fas fa-id-card
+            url: "https://orcid.org/0000-0001-7096-425X"
+          - icon: fas fa-graduation-cap
+            url: "https://scholar.google.com/citations?hl=en&user=FajiwyIAAAAJ&view_op=list_works&gmla=APjjwub0qGHe-Ofi7vja7hU_nxcbcMPA9ULIPfwmc1NUx3GlvkoTighZIWzJ9nVvQSrAQwygIRtPr4tAUePto0O6"
+
+      - title: "TEDxSolebury"
+        image: "/images/tedx.png"
+        content: >
+          Public talk on how modern astronomy and data analysis will reveal new
+          insights about the universe.
+        badges:
+          - "Public Talk"
+          - "Data & Astronomy"
+        links:
+          - icon: fab fa-youtube
+            url: "https://www.youtube.com/watch?v=nJ9sVVf5BTY"
+
+      - title: "Talks @ Google"
+        image: "/images/google.png"
+        content: >
+          Invited Talk @ Google "Data-Driven Discovery" on large-scale astronomical datasets, statistical
+          modeling, and robust data workflows.
+        badges:
+          - "Invited Talk"
+          - "Data at Scale"
+        links:
+          - icon: fab fa-youtube
+            url: "https://youtu.be/zAhNMDGMnlI?si=_8oD0cb2iGIyF77k"
+
+      - title: "Recent Media Appearances"
+        image: "/images/onnj.png"
+        content: >
+          Discussing my LSST-DA work on ONNJ (August 2025)
+        badges:
+          - "Media"
+
+        links:
+          - icon: fab fa-youtube
+            url: "https://youtu.be/MQEWP0xcyyQ?si=Ti3qcMe5di7y00iP"
+
+      #- title: "Media & Press"
+      #  content: >
+      #    Coverage in newspapers, online articles, and other media discussing my
+      #    research and public outreach.
+      #  badges:
+      #    - "Press"
+      #    - "Outreach"
+      #  links:
+      #    - icon: fas fa-newspaper
+      #      url: "YOUR_PRESS_OR_MEDIA_LANDING_PAGE_URL_HERE"
+
+      - title: "Sky & Telescope Articles"
+        image: "/images/sky2.png"
+        content: >
+          Articles written for Sky & Telescope Magazine, distilling recent
+          astronomical results for the general public.
+        badges:
+          - "Science Communication"
+          - "Writing"
+        links:
+          - icon: fas fa-star
+            url: "https://skyandtelescope.org/author/john-bochanski-2/"
+  #Contact
+  contact:
+    enable: true
+    content: >
+      I’m seeking roles as a Data Scientist, Applied Scientist, or analytics/ML-focused
+      individual contributor working with large, complex datasets.  Excited to contribute to high-functioning teams.
+      Feel free to reach out with opportunities or questions.
+    btnName: "Email me"
+    btnLink: "mailto:bochanski@gmail.com"
+  
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: false
+      disableFeaturedImage: false
+    socialNetworks:
+
+      #github: https://github.com/jbochanski
+      #linkedin: https://www.linkedin.com/in/johnbochanski/
+      #orcid: https://orcid.org/0000-0001-7096-425X
+      #twitter: https://twitter.com
+      #instagram: https://instagram.com
+      #facebook: https://facebook.com
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: false
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
+
