@@ -85,7 +85,8 @@ params:
   # color preference
   # When using hex codes for colors, quotations must be used along with the # sign
   # color:
-  #   textColor: "#343a40"
+    textColor: "#C45021"
+  #  textColor: "#343a40"
   #   secondaryTextColor: "#6c757d"
   #   textLinkColor: "#007bff"
   #   backgroundColor: "#eaedf0"
