@@ -182,6 +182,8 @@ params:
       title: "Some of the technologies and tools I work with:"
       items:
         - "Python"
+        -"Monte Carlo Simulations"
+        - "Modeling of Physical and Astrophysical Systems"
         - "SQL"
         - "Causal inference, regression, time-series analysis"
         - "scikit-learn, tensorflow,  ML workflows"
