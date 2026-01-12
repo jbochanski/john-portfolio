@@ -52,7 +52,7 @@ Menus:
 
 params:
   title: "John Bochanski"
-  description: Data Scientist and Astrophysicist
+  description:  Astrophysicist and Data Science Leader
   # staticPath: ""  # The path to serve the static files from
   favicon: "/hero3.png"
 
@@ -131,11 +131,11 @@ params:
     enable: true
     intro: ""
     title: "John Bochanski, Ph.D."
-    subtitle: "Data Scientist & Applied Researcher"
+    subtitle: "Astrophysicist and Data Science Leader"
     content: " US-based, mission-driven data scientist with 20+ years of experience
-      analyzing large, complex datasets and leading interdisciplinary teams.
-      I specialize in Python, SQL, and advanced analytics—including causal
-      inference, regression, and machine learning—to build models and metrics
+      analyzing large, complex datasets and leading large and small interdisciplinary teams.
+      I specialize in Python, SQL, and advanced analytics, including causal
+      inference, regression, and machine learning to build models and metrics
       that inform high-stakes decisions."
     image: /images/avatar.jpg
     bottomImage:
@@ -167,26 +167,30 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-     I’m a data-driven scientist with 20+ years of experience analyzing large,
-      complex datasets and leading interdisciplinary teams. I specialize in
-      Python, SQL, and advanced analytics—including causal inference, regression,
-      and machine learning—to build models and metrics that inform high-stakes
-      decisions.
+      I’m a data-driven scientist with 20+ years of experience analyzing large,
+      complex datasets and leading interdisciplinary teams. I am an expert
+      in scientific data analysis, with extensive experience in 
+      programming, large datasets, data visualization, and project management. 
+      I specialize in Python, SQL, and machine learning, with the ability to tell the 
+      story of disparate datasets to diverse audiences.
 
       I’ve founded and chaired an academic department, managed technical projects
       from conception through delivery, and mentored faculty and students across
       computer science, physics, and astronomy. I enjoy translating complex
       quantitative work into clear, actionable insights for diverse stakeholders.
+    
+      Outside of work, I enjoy getting into nature with my family, hosting star 
+    parties, and rooting for my Philly sports teams.
     skills:
       enable: true
       title: "Some of the technologies and tools I work with:"
       items:
         - "Python"
-        -"Monte Carlo Simulations"
+        - "Monte Carlo Simulations"
         - "Modeling of Physical and Astrophysical Systems"
         - "SQL"
         - "Causal inference, regression, time-series analysis"
-        - "scikit-learn, tensorflow,  ML workflows"
+        - "numpy, scikit-learn, tensorflow,  ML workflows"
         - "Git, Tableau, cloud environments"
         - "MLOps & reproducible data pipelines"
         - "Agile Methodologies"
@@ -290,7 +294,7 @@ params:
   # projects
   projects:
     enable: true
-    title: "Talks & Publications"
+    title: "Communication & Technical Impact"
     items:
       - title: "Publications"
         image: "/images/rubin.png"
@@ -367,8 +371,8 @@ params:
   contact:
     enable: true
     content: >
-      I’m seeking roles as a Data Scientist, Applied Scientist, or analytics/ML-focused
-      individual contributor working with large, complex datasets.  Excited to contribute to high-functioning teams.
+     I’m seeking roles as a Data Scientist, Technical Lead, or Applied Scientist
+      working with large, complex datasets. Excited to contribute to high-functioning teams.
       Feel free to reach out with opportunities or questions.
     btnName: "Email me"
     btnLink: "mailto:bochanski@gmail.com"
