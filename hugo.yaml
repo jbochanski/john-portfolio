@@ -204,7 +204,7 @@ params:
         jobs:
           - name: "Principal Member of the Engineering Staff"
             date: "2026 - Present"
-            content: -Developing advanced algorithms and machine learning for various projects.
+            content: -Developing advanced algorithms for various projects.
           
       - company: "Rider University"
         companyUrl: "https://www.rider.edu"
