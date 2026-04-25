@@ -199,6 +199,13 @@ params:
   experience:
     enable: true
     items:
+      - company: "Lockheed Martin"
+        companyUrl: "https://www.lockheedmartin.com"
+        jobs:
+          - name: "Principal Member of the Engineering Staff"
+            date: "2025 - Present"
+            content: -Developing advanced algorithms and machine learning for various projects.
+          
       - company: "Rider University"
         companyUrl: "https://www.rider.edu"
         jobs:
