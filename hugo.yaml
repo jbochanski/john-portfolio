@@ -149,7 +149,7 @@ params:
       newPage: false
     socialLinks:
       fontAwesomeIcons:
-          icon: fas fa-envelope
+        - icon: fas fa-envelope
           url: "mailto:bochanski@gmail.com"
         - icon: fab fa-linkedin
           url: "https://www.linkedin.com/in/johnbochanski/"
