@@ -52,7 +52,7 @@ Menus:
 
 params:
   title: "John Bochanski"
-  description:  Astrophysicist and Data Science Leader
+  description:  Engineer and Astrophysicist
   # staticPath: ""  # The path to serve the static files from
   favicon: "/hero3.png"
 
@@ -131,8 +131,8 @@ params:
     enable: true
     intro: ""
     title: "John Bochanski, Ph.D."
-    subtitle: "Astrophysicist and Data Science Leader"
-    content: " US-based, mission-driven data scientist with 20+ years of experience
+    subtitle: "Engineer and Astrophysicist"
+    content: " US-based, mission-driven scientist with 20+ years of experience
       analyzing large, complex datasets and leading large and small interdisciplinary teams.
       I specialize in Python, SQL, and advanced analytics, including causal
       inference, regression, and machine learning to build models and metrics
@@ -149,7 +149,7 @@ params:
       newPage: false
     socialLinks:
       fontAwesomeIcons:
-        - icon: fas fa-envelope
+          icon: fas fa-envelope
           url: "mailto:bochanski@gmail.com"
         - icon: fab fa-linkedin
           url: "https://www.linkedin.com/in/johnbochanski/"
@@ -167,7 +167,7 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I’m a data-driven scientist with 20+ years of experience analyzing large,
+      I’m a scientist and engineer with 20+ years of experience analyzing large,
       complex datasets and leading interdisciplinary teams. I am an expert
       in scientific data analysis, with extensive experience in 
       programming, large datasets, data visualization, and project management. 
@@ -369,7 +369,7 @@ params:
             url: "https://skyandtelescope.org/author/john-bochanski-2/"
   #Contact
   contact:
-    enable: true
+    enable: false
     content: >
      I’m seeking roles as a Data Scientist, Technical Lead, or Applied Scientist
       working with large, complex datasets. Excited to contribute to high-functioning teams.
